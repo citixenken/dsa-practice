@@ -25,3 +25,11 @@ end
 
 # using division
 # ==============
+def product_except_self(nums)
+    result = []
+    for i in 0..nums.length - 1
+        answer = nums.reduce(:*) / nums[i]
+        result << answer
+    end
+    result
+end
