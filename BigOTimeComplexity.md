@@ -9,11 +9,17 @@ Memory(Space)
 # Fastest to slowest (Operations v. Elements)
 
 O(1) => Constant Time
+
 O(log n)
 => BSTs
+
 O(n) => Linear Time
+
 O(nlog n)
 => Quicksort
+
 O(n^2)
+
 O(2^n)
+
 O(n!)
