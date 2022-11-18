@@ -4,3 +4,9 @@ Node-based data structure (Node...type of data that wraps our data)
 => Doubly Linked - bi-directional (prev?:Node<T>) and (next?:Node<T>)
 
 A node contains a value and references to another(next) node. One can therefore walk through this daisy-chain of nodes that contain values.
+
+Fast deletion and insertion operations => O(1) operations
+
+No indexing in linked lists
+
+Ordering of operations is extremely important
