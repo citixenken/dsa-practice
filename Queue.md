@@ -4,4 +4,4 @@ Queue => A FIFO structure.
 
 enqueue
 deque
-peek - check 1st element without popping it off.
+peek - check 1st element without popping it off. => head.value
